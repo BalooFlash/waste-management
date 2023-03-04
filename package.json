@@ -1,18 +1,41 @@
 {
-  "name": "grinwallet-nodejs",
-  "version": "0.1.0",
-  "description": "grin wallet node.js api",
-  "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gottstech/grinwallet-nodejs"
-  },
-  "author": "Gary Yu <gairy.yu@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "neon-cli": "^0.3.3"
-  },
+  "name": "waste-management",
+  "version": "1.0.0",
+  "description": "Backend for communicating to the server of fabric",
+  "main": "server.js",
   "scripts": {
-    "install": "neon build"
+    "test": "npm test"
+  },
+  "author": "xGod666",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "composer-admin": "^0.20.6",
+    "composer-cli": "^0.20.6",
+    "composer-client": "^0.20.6",
+    "composer-common": "^0.20.6",
+    "composer-connector-embedded": "^0.20.6",
+    "composer-cucumber-steps": "^0.20.6",
+    "cucumber": "^2.2.0",
+    "eslint": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest",
+    "nyc": "latest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.3-alpha.2",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.15",
+    "multer": "^1.4.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
   }
 }
